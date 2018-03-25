@@ -1,0 +1,96 @@
+ body {
+    background: rgb(15, 91, 179);
+    font-family: Helvetica, sans-serif;
+}
+
+#login {
+    margin: auto;
+    width: 978px;
+    height: 300px;
+    padding-bottom: 5%;
+    background: #fff;
+}
+
+#login h3{
+    font-size: 32px;
+    color: #666;
+    text-align:center;
+    margin-top: 15%;
+    padding-top: 5%;
+}
+
+.login_controls {
+    margin-left: 4%;
+}
+
+.login_controls input[type='text'] {
+    width: 900px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5%;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.login_btn, .signup_btn {
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    display: inline-block;
+    width: 300px;
+    margin-top: 40px;
+    height: 45px;
+}
+.login_btn {
+    background: rgba(14, 106, 211, 0.863);
+    margin-left: 12%;
+}
+.signup_btn {
+    background: red;
+    margin-left: 5%;
+}
+
+#dashboard {
+    display: none;
+    margin: auto;
+    background: white;
+    max-width: 1156px;
+    margin-top: 15px;
+}
+
+#dashboard .users {
+   list-style-type: none;
+   text-overflow: ellipsis;
+   margin-top: 15px;
+}
+
+#dashboard h3 {
+    font-size: 28px;
+}
+
+#dashboard .users li {
+    margin-top: 5px;
+}
+
+#dashboard .user_info {
+    margin-left: 10px;
+    padding: 15px;
+    display:block;
+}
+
+.user_info .wallet_id, .user_info .balance, a.logout{
+    font-size: 22px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+a.logout {
+    float: right;
+    font-size: 28px;
+    margin: 40px;
+}
+
+#dashboard .users a {
+   text-decoration: none; 
+}
